@@ -1,0 +1,325 @@
+﻿h1           { font-family: Kristen ITC; font-size: 24pt; color: #008000; font-weight:bold; text-align:center; margin-bottom:0; line-height:100% }
+.normal      { font-family: Comic Sans MS; font-size: 14pt }
+h2           { font-family: Comic Sans MS; color: #008000; font-size: 18pt; font-weight:bold }
+h3           { color: #008000; font-family: Comic Sans MS; font-size: 14pt; font-weight:bold }
+table         { font-family: Comic Sans MS; font-size: 14pt }
+body         { font-family: Comic Sans MS; font-size: 14pt }
+#header {
+ text-align: center}
+#topadbanner {
+ text-align: center}
+#leftbox {
+ position: relative;
+}
+#main {
+	left: 0; 
+
+  }
+#contentbox {
+	position: relative; padding-left:200px; 
+  }
+
+#contentlist {
+	padding-left:50px
+  }
+.farm {
+  
+  font-weight: bold}
+.mc {
+  
+  margin-left: 10em}
+#supermain {
+	left: 0; 
+  }
+#leftbox     { 
+  padding:0px; 
+  float: left ;
+  width: 170px;
+  
+  margin-right: 35px
+  }
+#leftmenu1    { 
+  padding:5px; 
+  float: left ;
+  width: 160px;
+  border: medium solid #FF0000
+
+  }
+#leftmenu2    { 
+  padding:5px; 
+  float: left ;
+  width: 160px;
+  border: medium solid #FF0000;
+  }  
+#leftmenu3    { 
+  padding:5px; 
+  float: left ;
+  width: 160px;
+  border: medium solid #FF0000; text-align:center
+  }
+#bottomadbanner { 
+	text-align: center; 
+	position:relative;  
+	}
+#footer      { text-align: center }
+li        
+{ font-family: Comic Sans MS; 
+font-size: 14pt;  
+ margin-left:0;
+background-position:  vertical-align top;                
+ }
+UL {
+margin-top: 5pt; 
+margin-bottom: 5pt; 
+padding: 0;
+vertical-align: top;
+margin-left: 20px;
+font-family: Comic Sans MS; font-size: 14pt;
+list-style-image:url('../graphics/greenball.gif') 
+}
+a  { color: #008000; text-decoration:none }
+A:link {color: #0000FF; text-decoration:underline}
+A:visited {color: #6666FF; text-decoration:underline}
+A:active { color: blue }
+A:hover { color: red } 
+a:link.bookmark { text-decoration: none; color: #008000; }
+a:visited.bookmark { text-decoration: none; color: #008000; }
+a:hover.bookmark { text-decoration: none; color: 008000; }
+a:active.bookmark { text-decoration: underline; color: #0000FF; }ol           { font-family: Comic Sans MS }
+
+A.navb{ 
+    color:#FFFFFF; 
+    width:154px; 
+    height:28px; 
+    background:#FFFFFF url('../images/off.gif') no-repeat; 
+    text-align:center; 
+	padding-top:8px;
+	padding-left:0px;
+	padding-bottom:0px;
+	padding-right:0px;	
+    display:block; 
+    text-decoration:none; font-style:normal; font-variant:normal; font-size:8pt; font-family:Verdana 
+    } 
+a:hover.navb{ 
+    font : 8pt verdana, sans-serif; 
+    color:white; 
+    text-decoration:none; 
+    background:white url(../images/on.gif) no-repeat;}    
+A.navh{ 
+    color:#FFFFFF; 
+    width:154px; 
+    height:28px; 
+    background:#FFFFFF url('../images/halloweenoff.gif') no-repeat; 
+    text-align:center; 
+	padding-top:8px;
+	padding-left:0px;
+	padding-bottom:0px;
+	padding-right:0px;	
+    display:block; 
+    text-decoration:none; font-style:normal; font-variant:normal; font-size:8pt; font-family:Verdana 
+    } 
+a:hover.navh{ 
+    font : 8pt verdana, sans-serif; 
+    color:white; 
+    text-decoration:none; 
+    background:white url(../images/halloweenon.gif) no-repeat;}    
+    
+A.navx{ 
+    color:#FFFFFF; 
+    width:154px; 
+    height:28px; 
+    background:#FFFFFF url('../images/xmasoff.gif') no-repeat; 
+    text-align:center; 
+	padding-top:8px;
+	padding-left:0px;
+	padding-bottom:0px;
+	padding-right:0px;	
+    display:block; 
+    text-decoration:none; font-style:normal; font-variant:normal; font-size:8pt; font-family:Verdana 
+    } 
+a:hover.navx{ 
+    font : 8pt verdana, sans-serif; 
+    color:white; 
+    text-decoration:none; 
+    background:white url(../images/xmason.gif) no-repeat;}  
+      
+A.navpr{ 
+    color:#FFFFFF; 
+    width:154px; 
+    height:28px; 
+    background:#FFFFFF url('../images/helpoff.gif') no-repeat; 
+    text-align:center; 
+	padding-top:8px;
+	padding-left:0px;
+	padding-bottom:0px;
+	padding-right:0px;	
+    display:block; 
+    text-decoration:none; font-style:normal; font-variant:normal; font-size:8pt; font-family:Verdana 
+    } 
+a:hover.navpr{ 
+    font : 8pt verdana, sans-serif; 
+    color:white; 
+    text-decoration:none; 
+    background:white url(../images/helpon.gif) no-repeat;}  
+      
+table.navb{ font-size:8pt; font-family:Verdana; margin-top:0; margin-bottom:0 }
+hr           { 
+color: #3333CC; height:4 
+}
+#greencssbuttons {
+	top: 0px;
+	left: 0px;
+	width: 200px ;
+	text-align: center ;
+}
+#greencssbuttons ul {
+	margin: 0 ;
+	padding: 0 ;
+	list-style: none ;
+}
+#greencssbuttons li {
+	margin: 0 ;
+	padding: 0 ;
+	display: block ;
+	list-style: none ;
+}
+#greencssbuttons li a {
+	color: #FFFFFF ;
+	background-color: 009000 ;
+	border: 1px outset #008f00 ;
+	width: 200px ;
+	text-decoration: none ;
+	display: block ; font-family:Comic Sans MS; font-size:12pt
+}
+#greencssbuttons li a:hover {
+	color: #000000 ;
+	background-color: #bfffbf ; font-family:Comic Sans MS; font-size:12pt
+}
+#purplecssbuttons {
+	width: 200px ;
+	text-align: center ;
+}
+#purplecssbuttons ul {
+	margin: 0 ;
+	padding: 0 ;
+	list-style: none ;
+}
+#purplecssbuttons li {
+	margin: 0 ;
+	padding: 0 ;
+	display: block ;
+	list-style: none ;
+}
+#purplecssbuttons li a {
+	color: #FFFFFF ;
+	background-color: #800080 ;
+	border: 1px outset #800080 ;
+	width: 200px ;
+	text-decoration: none ;
+	display: block; font-family:Comic Sans MS; font-size:12pt 
+}
+#purplecssbuttons li a:hover {
+	color: #000000 ;
+	background-color: #DDBBFF ; font-family:Comic Sans MS; font-size:12pt
+}
+
+#orangecssbuttons {
+	width: 200px ;
+	text-align: center ;
+}
+#orangecssbuttons ul {
+	margin: 0 ;
+	padding: 0 ;
+	list-style: none ;
+}
+#orangecssbuttons li {
+	margin: 0 ;
+	padding: 0 ;
+	display: block ;
+	list-style: none ;
+}
+#orangecssbuttons li a {
+	color: #FFFFFF ;
+	background-color: #FF6600 ;
+	border: 1px outset #FF6600 ;
+	width: 200px ;
+	text-decoration: none ;
+	display: block; font-family:Comic Sans MS; font-size:12pt 
+}
+#orangecssbuttons li a:hover {
+	color: #000000 ;
+	background-color: #FFC8A4 ; font-family:Comic Sans MS; font-size:12pt
+}
+
+
+#bluecssbuttons {
+	width: 200px ;
+	text-align: center ;
+}
+#bluecssbuttons ul {
+	margin: 0 ;
+	padding: 0 ;
+	list-style: none ;
+}
+#bluecssbuttons li {
+	margin: 0 ;
+	padding: 0 ;
+	display: block ;
+	list-style: none ;
+}
+#bluecssbuttons li a {
+	color: #FFFFFF ;
+	background-color: #0066FF ;
+	border: 1px outset #0066FF ;
+	width: 200px ;
+	text-decoration: none ;
+	display: block; font-family:Comic Sans MS; font-size:12pt 
+}
+#bluecssbuttons li a:hover {
+	color: #000000 ;
+	background-color: #9BC4FF ; font-family:Comic Sans MS; font-size:12pt
+}
+
+#tswcssbuttons {
+	width: 200px ;
+	text-align: center ;
+}
+#tswcssbuttons ul {
+	margin: 0 ;
+	padding: 0 ;
+	list-style: none ;
+}
+#tswcssbuttons li {
+	margin: 0 ;
+	padding: 0 ;
+	display: block ;
+	list-style: none ;
+}
+#tswcssbuttons li a {
+	color: #FFFFFF ;
+	background-color: 009000 ;
+	border: 1px outset #008f00 ;
+	width: 200px ;
+	text-decoration: none ;
+	display: block ;
+}
+#tswcssbuttons li a:hover {
+	color: #000 ;
+	background-color: #bfffbf ;
+}
+.div1, .div2, .div3{
+    float:right;
+    clear:right;
+}
+.div2{
+    background-color:green;
+    width: 300px;
+}
+.div1{
+    background-color:blue;
+    width: 125px;
+}
+.div3{
+    background-color:red;
+    width: 80px;
+}

@@ -34,6 +34,7 @@ guard 'livereload' do
 
   # file types LiveReload may optimize refresh for
   watch(%r{app/.+\.*})
+  watch(%r{crappy_design/.+\.*})
   watch("app.rb")
   # file needing a full reload of the page anyway
   watch(%r{app/views/.+\.(#{rails_view_exts * '|'})$})

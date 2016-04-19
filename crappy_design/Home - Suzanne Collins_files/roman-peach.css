@@ -1,0 +1,260 @@
+/* CSS values shorthand:
+	1: all
+	2: top/bottom left/right
+	3: top left/right bottom
+	4: top right bottom left
+	border: width style color
+*/
+
+body {
+	background-color: white;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+.pagediv {
+	background-color: white;
+	color: black;
+}
+
+.header {
+	font-family: Times New Roman, Times, serif;
+	font-size: 16px;
+	font-weight: bold;
+}
+div#TitleAndMenu {
+	min-width: 930px;
+}
+div#DIVMenu a:link    { color: black; }
+div#DIVMenu a:visited { color: black; }
+div#DIVMenu a:hover   { color: black; }
+div#DIVMenu a:active  { color: black; }
+.LayoutMenuItem {
+	font-family: Times New Roman, Times, serif;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 30px;
+	padding: 10px;
+	margin: 0px;
+}
+.LayoutMenuItemSelected {
+	font-family: Times New Roman, Times, serif;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 30px;
+	padding: 10px;
+	margin: 0px;
+}
+#SPANMenu {
+	text-align: center;
+}
+#DIVMenu {
+	text-align: right;
+	x-width: 710px;
+	margin: 0px 0px 5px 10px;
+}
+#theMainTable {
+	width: 100%;
+}
+
+/* ContentType 1: Paragraph */
+.ContentParagraph,
+.sb_captioned_image {
+	padding: 0px 10px;
+	font-size: 15px;
+}
+
+/* ContentType 2: Work */
+.ContentWork {
+	padding: 0px 10px;
+	font-size: 15px;
+}
+	.ContentWorkTitle {
+		font-family: Times New Roman, Times, serif;
+		font-size: 16px;
+		font-weight: bold;
+	}
+
+/* ContentType 3: Photo */
+.ContentPhoto {
+	padding: 9px;  /* Must be 9px to accommodate 180px image + 2px border + 18px padding = 200 px column */
+	font-size: 15px;
+}
+
+/* ContentType 4: Link (Quick Links) */
+.ContentQuickLink {
+	/* top/bot left/right */
+	padding: 5px 10px;
+	font-size: 15px;
+}
+
+/* QuickLink */
+a.quickLink { font-weight: bold; font-family: Arial;	font-size: 13px;
+}
+a:link    { color: #009; }
+a:visited { color: #009; }
+a:hover   { color: blue; }
+a:active  { color: red; }
+
+/* ContentType 5: Header */
+.ContentHeader {
+	font-family: Times New Roman, Times, serif;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px 10px 0px;
+}
+
+/* ContentType 9+11: The header for "Quick Links", "Selected Works", and others */
+.MediumHeader {
+	font-family: Times New Roman, Times, serif;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+	background-color: #FDA;
+	padding: 2px 10px;
+}
+
+.SubContentCategory {
+	font-size: 15px;
+	font-weight: bold;
+	padding: 15px 10px 5px;
+}
+
+/* ContentType 10: The header for each page - usually says "Home", "Works", etc. */
+.BigHeader {
+	font-family: Times New Roman, Times, serif;
+	font-size: 21px;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: left;
+	padding: 0 10px 10px 10px;
+}
+
+/* ContentType 12: Selected works (the actual link and description) */
+.sb_SelectedWorkDescription {
+	padding: 0px 10px 5px;
+	font-size: 15px;
+}
+
+/* ContentType 13: Find Authors (the graphic and the link) */
+.ContentFindAuthors {
+	padding: 10px;
+	clear: left;
+}
+
+/* ContentType 14: Newsletter subscribe (special text) */
+.ContentNewsletterSubscribe {
+	padding: 0px 10px;
+	font-size: 15px;
+}
+
+/* ContentType 15: Newsletter Link (the link with the date) */
+.ContentNewsletterLink {
+	font-family: Times New Roman, Times, serif;
+	font-size: 15px;
+	padding: 0px 10px 5px;
+}
+
+/* ContentType 17: Discussion Topic */
+.ContentTopic {
+	font-family: Times New Roman, Times, serif;
+	padding: 10px;
+	font-size: 15px;
+}
+	.ContentTopicHeader {
+		font-family: Times New Roman, Times, serif;
+		font-size: 18px;
+		font-weight: bold;
+	}
+
+/* ContentType 18: Author Name */
+.sb_title {
+	font-family: Times New Roman, Times, serif;
+	font-size: 38px;
+	font-weight: bold;
+	text-align: right;
+	line-height: 56px;
+	padding-right: 30px;
+	background-color: #FC9;
+	background-image: url(authorbg.gif);
+}
+h2.sb_subTitle {
+	font-family: Times New Roman, Times, serif;
+	font-size: 26px;
+	font-weight: bold;
+	text-align: right;
+	line-height: 26px;
+	padding-bottom: 12px;
+	padding-right: 30px;
+	background-color: #FC9;
+	background-image: url(authorbg.gif);
+}
+/* ContentType 19: Fixed text 2 */
+.ContentFixed2 {
+	font-family: Times New Roman, Times, serif;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: underline;
+	padding: 0px 10px 0px 10px;
+}
+
+
+/* These three control the layout areas 1,2,3. Used to set background colors, borders, etc. */
+.Content1 {
+	font-family: Times New Roman, Times, serif;
+}
+.Content2 {
+	font-family: Times New Roman, Times, serif;
+	width: 220px;
+}
+.Content3 {
+	font-family: Times New Roman, Times, serif;
+	width: 220px;
+	padding: 0 0 10px 0;
+}
+.Content4 {
+	font-family: Times New Roman, Times, serif;
+	width: 220px;
+	padding: 0 0 10px 0;
+}
+
+/* These three control the layout areas 1,2,3. Used to set background colors, borders, etc. */
+#TDContent1 {
+	padding: 0 10px 10px 10px;
+	min-width: 470px;
+}
+#TDContent2 {
+	padding: 0;
+}
+#TDContent3 {
+	padding: 0;
+	background-color: #FC9;
+}
+#TDContent4 {
+	color: black;
+	padding: 0;
+	background-color: #FC9;
+}
+#TDContent34 {
+	width: 220px;
+	padding: 0;
+	background-color: #FC9;
+}
+table#theMainTable td.TDMargin {
+	width: 10px;
+}
+div.Content2,
+div.Content3,
+div.Content4 {
+	width: 220px;
+}
+td div.sbSortable:hover {
+	border-color: #666666;
+}
+a.sbFindAuthors {
+	padding: 0 10px;
+}

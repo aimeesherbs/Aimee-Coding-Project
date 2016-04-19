@@ -1,0 +1,38 @@
+!!!
+%html
+  %head
+    %link{ rel: "stylesheet", href: "https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css" }
+    %title
+      Crappy Design Challenge
+  %body
+    .container
+      .jumbotron.jumbotron-fluid
+        .container
+          %h1.display-3 Crappy Design Challenge
+          %p.lead Can you improve on the comic sans experience, the color frenzy and the never-ending 90s style.
+          %ul
+            %li from the "crappy_design" folder
+            %li open an htm file for each project
+    .container
+      .row
+        .container.col-sm-4
+          .card
+            %img.card-img-top{ alt: "Card image cap", src: "assets/suzanne.jpg", style: "width: 100%; padding: 5px;" }/
+            .card-block
+              %h4.card-title Suzanne Collins
+              %p.card-text All those Hunger Games millions clearly didn't end up here...
+              %a.btn.btn-primary{ href: "http://www.suzannecollinsbooks.com/", target: "_blank" } Original
+        .container.col-sm-4
+          .card
+            %img.card-img-top{ alt: "Card image cap", src: "assets/christmastreefarm.jpg", style: "width: 100%; padding: 5px;" }/
+            .card-block
+              %h4.card-title Christmas Tree
+              %p.card-text Comic Sans Galore. At least it's somewhat black on white.
+              %a.btn.btn-primary{ href: "http://www.pickyourownchristmastree.org", target: "_blank" } Original
+        .container.col-sm-4
+          .card
+            %img.card-img-top{ alt: "Card image cap", src: "assets/artcenter.jpg", style: "width: 100%; padding: 5px;" }/
+            .card-block
+              %h4.card-title Art Center
+              %p.card-text Not very artsy considering it's an art center. At least 8 different text colors.
+              %a.btn.btn-primary{ href: "http://www.riversideartcenter.org/", target: "_blank" } Original
