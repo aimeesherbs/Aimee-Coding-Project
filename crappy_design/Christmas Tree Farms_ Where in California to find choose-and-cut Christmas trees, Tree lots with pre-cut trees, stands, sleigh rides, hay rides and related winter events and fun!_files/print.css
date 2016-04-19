@@ -1,0 +1,49 @@
+h1           { font-family: Kristen ITC; font-size: 24pt; color: #3333CC }
+.normal      { font-family: Comic Sans MS; font-size: 12pt }
+h2           { font-family: Comic Sans MS; color: #FF8000; font-size: 18pt }
+h3           { color: #FF8000; font-family: Comic Sans MS; font-size: 14pt; font-weight:bold }
+body         { font-family: Comic Sans MS; font-size: 12pt }
+body { 
+  color : #000000; 
+  background : #ffffff; 
+  font-family: Comic Sans MS, Times, serif;
+  font-size : 12pt; 
+}
+a { 
+  text-decoration : underline; 
+  color : #0000ff; 
+}
+#navigation, #advertising, #other { 
+  display : none; 
+}
+#header     { 
+   display : none;  
+  }
+#leftbox     { 
+   display : none;  
+  }
+#leftmenu1    { 
+    display : none; 
+      }
+#leftmenu2    { 
+  display : none; 
+    }  
+#leftmenu3    { 
+  display : none; 
+    }
+#topadbanner {
+  display : none; 
+	}    
+#pageintro {
+  display : none; 
+	}    
+#bottomadbanner { 
+  display : none; 
+	}
+#footer { 
+  display : none; 
+	}
+li           { font-size: 14pt }
+hr           { 
+color: #3333CC; height:4 
+}

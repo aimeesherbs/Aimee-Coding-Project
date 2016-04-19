@@ -21,4 +21,8 @@ class App < Sinatra::Base
   get "/playground" do
     erb :playground
   end
+
+  get "/challenge" do
+    haml :challenge
+  end
 end

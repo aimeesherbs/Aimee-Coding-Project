@@ -1,0 +1,276 @@
+/* reset */
+h1 { margin: 0px; }
+h2 { margin: 0px; }
+h3 { margin: 0px; }
+h4 { margin: 0px; }
+ul { padding: 1px 0px 2px 30px; margin: 0px; }
+b  { font-weight: bold; }
+p  { padding:0; margin:0.5em 0;}
+a:link, 
+a:visited { text-decoration: none; }
+a:hover, 
+a:active  { text-decoration: underline; }
+a img {border:0;}
+
+#TriColumnDiv { clear: both; float: none; }
+#theMainTable { clear: both; float: none; }
+.rightcol, .leftcol {
+	width:220px;
+	width:220px;
+}
+
+
+/* .wbr:before { content: "\200B" } */
+
+/* default sitebuilder element style */
+
+/* if the javascript loads slowly (eg from an external source like google)
+we need these things to still be hidden at the start */
+#waitIndicatorMessage {
+  display: none;
+}
+
+.sb_ok {
+	margin:0.2em;
+	padding:0.4em;
+	border:2px solid #090;
+}
+.sb_error {
+	margin:0.2em;
+	padding:0.4em;
+	border:2px solid #900;
+}
+.sb_warning {
+	margin:0.2em;
+	padding:0.4em;
+	border:2px solid #FB0;
+}
+
+.sb_newsletter {
+}
+
+.sb_newsletter_date {
+}
+
+.sb_blogpost {
+	margin-bottom:1em;
+}
+.sb_blogpost > h2 {
+	margin:0;
+	padding:0;
+}
+.sb_blogpost > h3 {
+	margin:0;
+	padding:0;
+}
+.sb_blogpost a {
+	font-weight:normal !important;
+}
+.sb_blogpost_tags {
+	margin:0 0 .5em; 
+	padding:0; 
+	text-indent: 0;
+	font-size: .95em;
+}
+.sb_blogpost_tags b  {
+	font-weight:normal;
+}
+.sb_blogpost_date {
+	margin:0 0 .5em; 
+	padding:0; 
+	text-indent: 0;
+	font-size: 1em;
+	line-height: 1.5;
+}
+.sb_blogpost_content {
+	margin-bottom:1em;
+	overflow:hidden;
+}
+.sb_blogpost_content p {
+	margin-bottom:1em;
+}
+.sb_blogpost_author {
+	text-align:right;
+}
+.sb_blogpost_comments {
+}
+.sb_blogpost_comments > p {
+	padding-left:1em;
+}
+.sb_blogpost_comment_tools {
+	font-size: .95em;
+	padding-left:1em;
+}
+.sb_blogpost_comments ol.sb_comment_list {
+	list-style:none;
+	margin:0em;
+	padding-left:1em;
+}
+
+ol.sb_comment_list li {
+	list-style:none;
+	margin:0em;
+	padding-left:0;
+}
+li.sb_comment {
+}
+div.sb_comment,
+.sb_comment_date,
+.sb_comment_author {
+	line-height: 1.5;
+	margin-bottom: .5em;
+}
+
+.sb_comment_editor {
+	font-family:Arial, Helvetica, sans-serif;
+	margin:0;
+	padding:5px;
+}
+
+table.sbForm th, table.sbForm td {
+	font-size:13px;
+	line-height:1.8em;
+	font-weight:normal;
+	vertical-align:top;
+	text-align:left;
+}
+
+table.sbForm .sbSubmit {
+	text-align:right;
+}
+
+.sbMemberOnly {
+	background-color:#666699;
+	color:#FFF;
+}
+
+.sb_content_image_left,
+.sb_content_image_right {
+        overflow:hidden;
+}
+
+.sb_content_image_center .sb_captioned_image {
+	/* width:???? - to be added inline */
+	margin-left:auto;
+	margin-right:auto;
+}
+.sb_content_image_left .sb_captioned_image {
+	float:left;
+	margin-right:0.5em;
+	padding:0.5em;
+	padding-left: 0px;
+}
+.sb_content_image_right .sb_captioned_image {
+	float:right;
+	margin-left:0.5em;
+	padding:0.5em;
+	padding-right: 0px;
+}
+td.leftcol .sb_content_image_left .sb_captioned_image,
+td.rightcol .sb_content_image_left .sb_captioned_image {
+	margin-right: 0;
+	padding: 5px 0;
+	float: none;
+}
+td.leftcol .sb_content_image_right .sb_captioned_image,
+td.rightcol .sb_content_image_right .sb_captioned_image {
+	margin-left: 0;
+	padding: 5px 0;
+	float: none;
+}
+.sb_add_border .sb_captioned_image img {
+	border:1px solid #000;
+	margin-bottom: 5px;
+}
+.sb_captioned_image .sb_caption {
+	text-align:left;
+/* FIXME: this would be nice ... but older themes aren't setup to cascade properly
+	font-size: 90%; 
+	line-height:1.2em;
+*/
+
+}
+
+.sb_field {
+  margin:0.5em 0;
+  position:relative;
+}
+.sb_label {
+	margin:0.1em 0;
+}
+.recaptchatable {
+  background:#FFF;
+}
+
+.sb_contact_form {
+  position:relative;
+  width:410px; /*limit to the minimun allowed for the center column*/
+}
+/* matches the visual width of the recaptcha */
+.sb_contact_form div.sb_label {
+	width:441px;
+}	
+.sb_contact_form .sb_field textarea {
+	width:441px; border:1px solid #DFDFDF;
+}
+.sb_contact_form .sb_field input.text {
+	position:absolute;
+	border:1px solid #DFDFDF; 
+  top:0px; left:71px;
+	width:369px;
+}
+/*
+div#recaptcha_widget_div {
+ position: relative;
+}
+div#recaptcha_widget_div div#recaptcha_area {
+ position: absolute;
+}
+div#contact_form span.recaptcha_challenge_field_holder input {
+  margin-top: 5px;
+}
+*/
+html .recaptcha_input_area {
+	position:static !important;
+	border: 1px solid #fff;
+}
+div#recaptcha_area {
+	padding: 5px 0;
+}
+
+
+.sb_single_book { overflow:hidden; position:relative;}
+.sb_single_book > img {float:left; margin-right:2.5em;}
+.sb_single_book > .content {float:left; width:40%;}
+
+.clearer {clear: both;} 
+body.sb_template_css .clearer {clear: none;}
+
+div.ContentNewsletterLink {
+	line-height: 1.3;
+	margin-bottom: 5px;
+}
+body.sb_pt_newsletter .ContentFixed2 {
+	margin-bottom: 5px;
+}
+div.ContentNewsletterSubscribe label {
+	display: inline-block;
+	width: 200px;
+}
+div.sb_blog_tags,
+div.sb_blog_archives {
+	margin-bottom: 15px;
+}
+div.sb_blog_tags li,
+div.sb_blog_archives li {
+	margin-bottom: 5px;
+}
+div.sb_blog_tags h3,
+div.sb_blog_archives h3 {
+	margin-bottom: 5px !important;
+}
+div.sb_coltop { display: none;}
+div.ContentTopic {
+	margin-bottom: 10px;
+	line-height: 1.5;
+}
